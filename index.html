@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SoundCloud Player</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="./CSS/main.css" />
+</head>
+
+<body class="body">
+  <main>
+    <div class="row gx-1 w-100 min-vh-100">
+      <div class="js-playlist col-md-4 col-lg-2 bg-dark"></div>
+      <div class="col-md-8 col-lg-10 text-center">
+        <h1 class="mt-5">SoundCloud Player</h1>
+        <button class="clear-playlist btn btn-secondary mt-2">Clear Playlist</button>
+        <div class="container g-5 d-flex mt-4 w-50">
+          <input type="text" placeholder="Search for a song or artist" class="form-control m-1" />
+          <button class="search-button bi-search btn m-1"></button>
+        </div>
+        <div class="js-search-results d-flex flex-wrap justify-content-center mt-4"></div>
+      </div>
+    </div>
+  </main>
+
+  <script src="https://connect.soundcloud.com/sdk/sdk-3.3.2.js"></script>
+  <script src="./JS/main.js"></script>
+</body>
+
+</html>

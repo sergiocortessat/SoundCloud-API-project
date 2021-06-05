@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+
+.body {
+  background-image: linear-gradient(to right, #ab274f, #de3163, #ab274f);
+  color: #d7adb9 !important;
+  font-family: "Bangers", sans-serif;
+}
+
+.card {
+  width: 260px;
+  height: 380px;
+}
+
+img {
+  width: 100%;
+}
+
+.link-secondary:hover {
+  color: #dc3545;
+}
+
+.container {
+  margin: 0 auto;
+}
